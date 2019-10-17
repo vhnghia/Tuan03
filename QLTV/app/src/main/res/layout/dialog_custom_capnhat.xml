@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View detail"
+        android:background="#090808"
+        android:textColor="#F0EDED"
+        android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#090808"
+            android:text="Ma tac gia: "
+            android:textColor="#F0EDED"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/edt_IdAuthor_capnhat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#090808"
+            android:text="Ten tac gia: "
+            android:textColor="#F0EDED"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/edt_Author_capnhat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_Clear_capnhat"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:text="Xoa Trang" />
+
+        <Button
+            android:id="@+id/btn_Update_capnhat"
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+    </LinearLayout>
+
+</LinearLayout>

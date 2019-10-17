@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tuan3_DoiMauChu</string>
+    <string name="hello_world"> Hello world</string>
+    <string name="action_settings"> Settings </string>
+    
+    <color name="clrred"> #F00</color>
+    <color name="clrgreen"> #0F0</color>
+    <color name="clrblue"> #F00F</color>
+</resources>

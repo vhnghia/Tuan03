@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/xemdssv"
+        android:title="Xem Danh Sach Sinh Vien">
+    </item>
+
+    <item android:id="@+id/xemdsl"
+        android:title="Xem danh sach lop">
+        <menu>
+            <item android:id="@+id/dh1a"
+                android:title="Dai Hoc 1A"> </item>
+            <item android:id="@+id/dh1b"
+                android:title="Dai Hoc 1B">
+            </item>
+        </menu>
+    </item>
+</menu>

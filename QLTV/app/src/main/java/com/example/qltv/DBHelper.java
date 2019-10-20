@@ -69,7 +69,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public boolean InsertOne(TacGia tg){
         ArrayList<TacGia> dstg = AllTacGia();
         for(TacGia tacgia: dstg)
-            if(tg.getId().equalsIgnoreCase(tg.getId()))
+            if(tacgia.getId().equalsIgnoreCase(tg.getId()))
                 return false;
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();

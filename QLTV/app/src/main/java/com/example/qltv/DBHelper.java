@@ -123,6 +123,8 @@ public class DBHelper extends SQLiteOpenHelper {
         return  true;
     }
 
+
+
     public Boolean UpdateTacGia(TacGia tg,String idht){
         SQLiteDatabase db = getWritableDatabase();
         if(KiemTraTrungMa(tg.getId())==false)
